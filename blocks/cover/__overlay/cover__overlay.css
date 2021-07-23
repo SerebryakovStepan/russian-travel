@@ -1,0 +1,9 @@
+.cover__overlay{
+    background: rgba(42, 44, 47, 0.3);
+    max-width: 1184px;
+    min-height: 740px;
+}
+
+.cover__overlay:hover{
+    background: rgba(42, 44, 47, 0.8);;
+}
