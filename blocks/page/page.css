@@ -1,4 +1,7 @@
-.page{
+.page {
+    max-width: 1440px;
+    max-height: 8080px;
+    margin: 0 auto;
     background-color: #2A2C2F;
-    font-family: 'Inter', sans-serif;
+    padding: 0;
 }

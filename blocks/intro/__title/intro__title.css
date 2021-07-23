@@ -3,30 +3,34 @@
     line-height: 58px;
     font-weight: 900;
     color: #FFFFFF;
-    width: 984px;
-    margin: 92px auto 40px;
+    max-width: 984px;
+    margin: 0 auto 40px;
 
 }
-@media screen and (max-width: 1024px){
-    .intro__title{
-        width: 720px;
-        margin: 82px auto 40px 48px;
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 768px){
-    .intro__title{
-        width: 720px;
-        margin: 88px 24px 40px;
+@media screen and (max-width: 414px) {
+    .intro__title {
+        font-size: 48px;
+        line-height: 48px;
     }
 }
 
-@media screen and (max-width: 320px){
-    .intro__title{
+@media screen and (max-width: 375px) {
+    .intro__title {
         font-size: 32px;
         line-height: 35px;
-        width: 288px;
-        height: 70px;
-        margin: 64px 16px 40px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        width: 90%
     }
 }

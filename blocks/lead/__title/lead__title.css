@@ -5,15 +5,40 @@
     line-height: 100px;
     margin: 56px auto 32px;
     text-align: center;
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
+    max-height: 200px;
 }
-@media screen and (max-width: 320px) {
-    .lead__title{
+
+@media screen and (max-width: 690px) {
+    .lead__title {
+        font-size: 86px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .lead__title {
+        font-size: 76px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .lead__title {
+        font-size: 67px;
+        line-height: 66px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .lead__title {
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .lead__title {
+        width: 90%;
         font-size: 40px;
         line-height: 44px;
-        margin: 48px auto 16px;
-        width: 288px;
-        height: 88px;
     }
 }

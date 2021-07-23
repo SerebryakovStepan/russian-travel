@@ -1,0 +1,29 @@
+.place__inform {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 48px;
+    display: flex;
+    max-height: fit-content; 
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__inform {
+        margin-bottom: 44px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__inform {
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__inform {
+        width: 91.5%;
+        margin: 0 auto 36px auto;
+        flex-direction: column;
+    }
+}

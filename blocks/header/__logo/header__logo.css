@@ -1,7 +1,12 @@
-.header__logo{
-    background-image: url(../../../images/header-logo.svg);
-    width: 176px;
-    height: 52px;
-    color: #FFFFFF;
-    z-index: 1;
+@media screen and (max-width: 375px) {
+    .header__logo {
+        width: 41.4%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 49.3%;
+    }
 }

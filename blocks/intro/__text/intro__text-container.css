@@ -1,25 +1,12 @@
 .intro__text-container{
-    width: 984px;
-    margin: 40px auto 33px;
+    max-width: 928px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: flex;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px) {
     .intro__text-container {
-        width: 928px;
-        margin: 40px auto 33px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .intro__text-container {
-        width: 720px;
-        margin: 40px auto 33px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .intro__text-container {
-        width: 288px;
-        margin: 40px auto 33px;
+        width: 100%;
     }
 }
