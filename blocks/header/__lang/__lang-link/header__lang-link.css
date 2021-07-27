@@ -5,10 +5,12 @@
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 18px;
+    border-bottom-style: solid;
 }
 
 .header__lang-link:last-of-type {
     margin-right: 0;
+    border-bottom-style: none;
 }
 
 @media screen and (max-width: 375px) {

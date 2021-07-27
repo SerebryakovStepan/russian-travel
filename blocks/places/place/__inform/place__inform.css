@@ -3,7 +3,7 @@
     margin: 0;
     margin-bottom: 48px;
     display: flex;
-    max-height: fit-content; 
+    max-height: fit-content;
     flex-direction: row;
 }
 
