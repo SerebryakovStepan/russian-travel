@@ -2,6 +2,8 @@
     margin: 92px auto 24px;
     position: relative;
     width: 92.5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
     .footer {
         width: 75.2%;
         display: flex;
