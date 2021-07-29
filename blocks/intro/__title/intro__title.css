@@ -3,7 +3,7 @@
     line-height: 58px;
     font-weight: 900;
     color: #FFFFFF;
-    max-width: 984px;
+    width: 100%;
     margin: 0 auto 40px;
 
 }
@@ -32,5 +32,6 @@
 @media screen and (max-width: 320px) {
     .intro__title {
         width: 90%;
+        margin: 0;
     }
 }

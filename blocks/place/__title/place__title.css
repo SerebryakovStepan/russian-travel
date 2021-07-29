@@ -7,9 +7,27 @@
     margin: 0 40px 0 0;
 }
 
+@media screen and (max-width: 1100px) {
+    .place__title {
+        width: 60%;
+        font-size: 72px;
+        line-height: 76px;
+        margin-right: 37px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .place__title {
         width: 48%;
+        font-size: 72px;
+        line-height: 76px;
+        margin-right: 37px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .place__title {
+        width: 65%;
         font-size: 72px;
         line-height: 76px;
         margin-right: 37px;

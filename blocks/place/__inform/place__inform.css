@@ -3,8 +3,8 @@
     margin: 0;
     margin-bottom: 48px;
     display: flex;
-    max-height: fit-content;
-    flex-direction: row;
+    
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,6 +16,11 @@
 @media screen and (max-width: 768px) {
     .place__inform {
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__inform {
         flex-direction: column;
     }
 }
