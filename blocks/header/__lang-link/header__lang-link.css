@@ -5,6 +5,12 @@
     text-decoration: none;
     margin-right: 18px;
     border-bottom-style: solid;
+    opacity: 0.3;
+    transition: opacity .2s linear;
+}
+
+.header__lang-link:hover{
+    opacity: .8;
 }
 
 .header__lang-link:last-of-type {

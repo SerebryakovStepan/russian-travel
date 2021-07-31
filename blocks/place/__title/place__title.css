@@ -1,63 +1,82 @@
 .place__title {
-    width: 48%;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 76px;
-    color: #FFFFFF;
-    margin: 0 40px 0 0;
+  max-width: 460px;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  margin: 0 40px 0 0;
 }
 
 @media screen and (max-width: 1100px) {
-    .place__title {
-        width: 60%;
-        font-size: 72px;
-        line-height: 76px;
-        margin-right: 37px;
-    }
+  .place__title {
+    max-width: 460px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-right: 37px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .place__title {
-        width: 48%;
-        font-size: 72px;
-        line-height: 76px;
-        margin-right: 37px;
-    }
+  .place__title {
+    max-width: 440px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-right: 37px;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .place__title {
-        width: 65%;
-        font-size: 72px;
-        line-height: 76px;
-        margin-right: 37px;
-    }
+  .place__title {
+    max-width: 440px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-right: 37px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .place__title {
+    min-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0;
+    padding-right: 28px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .place__title {
-        width: 50%;
-        font-size: 42px;
-        line-height: 46px;
-        margin-right: 28px;
-        margin-bottom: 32px;
-    }
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0;
+    padding-right: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__title {
+    width: 90%;
+    font-size: 42px;
+    line-height: 46px;
+    margin-bottom: 32px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .place__title {
-        width: 90%;
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 32px;
-    }
+  .place__title {
+    width: 90%;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 32px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .place__title {
-        width: 90%;
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 32px;
-    }
+  .place__title {
+    width: 90%;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 32px;
+  }
 }

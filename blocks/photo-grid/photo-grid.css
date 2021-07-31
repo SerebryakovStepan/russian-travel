@@ -25,6 +25,7 @@
         grid-row-gap: 16px;
         margin-top: 92px;
         gap: 16px;
+        margin: 88 auto 0 auto;
     }
 }
 
@@ -36,6 +37,7 @@
         grid-row-gap: 16px;
         margin-top: 67px;
         gap: 16px;
+        margin: 64px auto 0 auto;
     }
 }
 

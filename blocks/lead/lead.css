@@ -1,30 +1,36 @@
 .lead {
-    color: #FFFFFF;
-    width: 76.9%;
-    margin: 56px auto 92px auto;
+  color: #ffffff;
+  width: 76.9%;
+  margin: 56px auto 92px auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead {
+    width: 90.6%;
+    margin-top: 48px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .lead {
-        width: 90.6%;
-}
+  .lead {
+    width: 90.6%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .lead {
-        width: 100%;
-}
+  .lead {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 414px) {
-    .lead {
-        margin-bottom: 0;
-}
+  .lead {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .lead {
-        margin-top: 48px;
-        margin-bottom: 64px;
-}
+  .lead {
+    margin-bottom: 64px;
+  }
 }
