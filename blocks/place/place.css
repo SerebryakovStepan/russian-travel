@@ -11,13 +11,6 @@
     padding: 0;
 }
 
-
-@media screen and (max-width: 1024px) {
-    .place {
-        padding-bottom: 80px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .place {
         padding-bottom: 73px;

@@ -8,12 +8,6 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .intro__title {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 414px) {
     .intro__title {
         font-size: 48px;

@@ -21,8 +21,6 @@
         width: 93.7%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        grid-column-gap: 16px;
-        grid-row-gap: 16px;
         margin-top: 92px;
         gap: 16px;
         margin: 88 auto 0 auto;
@@ -34,7 +32,6 @@
         width: 91.5%;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
-        grid-row-gap: 16px;
         margin-top: 67px;
         gap: 16px;
         margin: 64px auto 0 auto;
@@ -46,6 +43,5 @@
         width: 90%;
         grid-template-rows: repeat(12, 1fr);
         grid-row-gap: 8px;
-        gap: 16px;
     }
 }

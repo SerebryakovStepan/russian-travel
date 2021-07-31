@@ -15,3 +15,6 @@ html, css.
 
 ### Планы по развитию
 Учиться, учиться, учиться. Затем практика, практика, практика.
+
+## ссылка на страницу
+https://serebryakovstepan.github.io/russian-travel/index.html

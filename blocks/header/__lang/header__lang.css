@@ -1,21 +1,4 @@
 .header__lang {
-    position: relative;
-    bottom: 37px;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
+    margin: auto 0;
     list-style: none;
-}
-
-
-@media screen and (max-width: 375px) {
-    .header__lang {
-        bottom: 27px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__lang {
-        bottom: 30px;
-    }
 }
