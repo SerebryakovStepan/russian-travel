@@ -1,4 +1,4 @@
-.header__lang_link-active{
+.header__lang-link-active{
     font-size: 24px;
     line-height: 23px;
     color: #FFFFFF;
@@ -9,12 +9,12 @@
     border-bottom-style: solid;
 }
 
-.header__lang_link-active:hover{
+.header__lang-link-active:hover{
     opacity: .8;
 }
 
 @media screen and (max-width: 375px) {
-    .header__lang_link-active {
+    .header__lang-link-active {
         font-size: 18px;
         line-height: 17px;
     }
