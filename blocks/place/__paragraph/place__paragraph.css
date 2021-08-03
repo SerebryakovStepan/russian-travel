@@ -22,7 +22,7 @@
 @media screen and (max-width: 740px) {
     .place__paragraph  {
         line-height: 26px;
-        margin: 25px auto 0 auto;
+        margin: 0 0 25px;
     }
 }
 
@@ -30,5 +30,6 @@
 @media screen and (max-width: 375px) {
     .place__paragraph  {
         width: 91.5%;
+        
     }
 }
