@@ -28,3 +28,11 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .place__title {
+    width: 90%;
+    margin-left: 16px;
+  }
+}
+
+

@@ -1,12 +1,12 @@
 @media screen and (max-width: 375px) {
-    .header__logo {
-        width: 41.4%;
-    }
+  .header__logo {
+    width: 41.4%;
+  }
 }
-
 
 @media screen and (max-width: 320px) {
-    .header__logo {
-        width: 49.3%;
-    }
+  .header__logo {
+    width: 49.3%;
+  }
 }
+

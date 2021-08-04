@@ -1,35 +1,39 @@
 .place__paragraph {
-    width: 100%;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
-    color: #FFFFFF;
-    margin: 0 0 26px 0;
+  width: 100%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+  margin: 0 0 26px 0;
 }
 
-.place__paragraph:last-of-type{
-    margin: 0;
+.place__paragraph:last-of-type {
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph  {
-        font-size: 16px;
-        line-height: 27px;
-        margin-bottom: 27px;
-    }
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 27px;
+  }
 }
 
 @media screen and (max-width: 740px) {
-    .place__paragraph  {
-        line-height: 26px;
-        margin: 0 0 25px;
-    }
+  .place__paragraph {
+    line-height: 26px;
+    margin: 0 auto 25px;
+  }
 }
 
-
 @media screen and (max-width: 375px) {
-    .place__paragraph  {
-        width: 91.5%;
-        
-    }
+  .place__paragraph {
+    width: 91.5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    width: 90%;
+  }
 }

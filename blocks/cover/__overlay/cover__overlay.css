@@ -1,9 +1,8 @@
-.cover__overlay{
-    background: rgba(42, 44, 47, 0.3);
-    transition: .8s linear;
-    
+.cover__overlay {
+  background: rgba(42, 44, 47, 0.3);
+  transition: 0.8s linear;
 }
 
-.cover__overlay:hover{
-    background: rgba(42, 44, 47, 0.8);
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, 0.8);
 }
